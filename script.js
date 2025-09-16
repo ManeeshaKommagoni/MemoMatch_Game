@@ -31,7 +31,7 @@ for (let i = 0; i < 64; i++) {
 }
 
 // Game state
-let c = 0, cnt = 62;
+let c = 0, cnt = 0;
 let val1, val2, c1, c2;
 
 // Timer setup
@@ -133,3 +133,4 @@ if (cnt === 64) {
     }
   });
 }
+
