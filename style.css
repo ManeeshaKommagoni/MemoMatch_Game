@@ -1,0 +1,52 @@
+body
+{
+  background-color: #EBEBEB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#app_name
+{
+  color: #EF7722;
+}
+
+#cards-container
+{
+  display: grid;
+  grid-template-columns: repeat(8,1fr);
+  grid-template-rows: repeat(8,1fr);
+  height : 480px;
+  width: 480px;
+  gap:1px;
+  
+}
+
+.card
+{
+  border-radius : 3px;
+  display :inline-block;
+  margin:3px;
+  gap:2px; 
+  background-color :#FAA533;
+  font-size: xx-large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#status
+{
+  display:flex;
+  height:200px;
+  width:500px;
+  justify-content: space-around;
+  align-items: center;
+}
+#time
+{
+  color:#0BA6DF;
+  font-size: xxx-large;
+text-decoration: underline;
+}
